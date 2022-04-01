@@ -1,3 +1,4 @@
+# Tabular Q-Learning :
 In this Lab, we use tabular Q-Learning ([Problem 1](https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/Lab1_Problem1.ipynb)) and "Policy improvement" ([Problem 2](https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/Lab1_Problem2.ipynb)) to solve the Frozen Lake environment from OpenAI.
 
 Winter is here. You and your friends were tossing around a frisbee at the park
