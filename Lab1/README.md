@@ -1,6 +1,13 @@
 # Tabular Q-Learning :
 In this Lab, we use tabular Q-Learning ([Problem 1](https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/Lab1_Problem1.ipynb)) and "Policy improvement" ([Problem 2](https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/Lab1_Problem2.ipynb)) to solve the Frozen Lake environment from OpenAI.
 
+## Table of contents
+- [Introduction](#introduction)
+- [Models](#models)
+    1. [Q-Learning](#q-learning)
+
+## Introduction
+
 Winter is here. You and your friends were tossing around a frisbee at the park
     when you made a wild throw that left the frisbee out in the middle of the lake.
     The water is mostly frozen, but there are a few holes where the ice has melted.
@@ -25,4 +32,10 @@ Winter is here. You and your friends were tossing around a frisbee at the park
     
     FrozenLake-v0 defines "solving" as getting average reward of 0.78 over 100 consecutive trials.
     
-For both algorithms, our Reinforcement Model ended up to solve the game.
+ 
+## Models
+Both models proposed below to solve this environment use the fact that our state space and action space are small enough so we can use tabular implementation of the Dynamic Programming algorithm.
+### Q-learning
+Tabular Q-learning algorithm uses TD(0) to improve the estimate of the Q-value after each steps. As a reminder, Q-value is solution of the Bellman equation defined below :
+
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
