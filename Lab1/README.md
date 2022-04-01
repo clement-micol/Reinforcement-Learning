@@ -38,4 +38,5 @@ Both models proposed below to solve this environment use the fact that our state
 ### Q-learning
 Tabular Q-learning algorithm uses TD(0) to improve the estimate of the Q-value after each steps. As a reminder, Q-value is solution of the Bellman equation defined below :
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+![first formula](https://latex.codecogs.com/gif.latex?Q%28s%2Ca%29%20%3D%20R%28s%2Ca%29%20&plus;%20%5Cgamma%5Cmathbb%7BE%7D%5B%5Cunderset%7Ba%27%7D%7Bmax%7DQ%28s%27%2Ca%27%29%7Cs%2Ca%5D)
+
