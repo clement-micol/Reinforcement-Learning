@@ -81,5 +81,9 @@ Therefore at each iteration, we are going to compute a target <img src="https://
  ```
  ## Performance
  We show below the performance of our model :
- ![Q Training]()
+ 
+ |Q-Learning | Policy Improvement|
+ |:----------:|:---------------------:|
+ |<img src = https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/figs/Training-Moving-Avg-Rwd-Q.svg width=450> | <img src=https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/figs/Training-Moving-Avg-Rwd-PI.svg width=450> |
+ |<img src = https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/figs/Evaluation-Moving-Avg-Rwd-Q.svg width=450> | <img src=https://github.com/clement-micol/Reinforcement-Learning/blob/main/Lab1/figs/Evaluation-Moving-Avg-Rwd-PI.svg width=450> |
     
