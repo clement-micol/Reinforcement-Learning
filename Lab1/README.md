@@ -80,5 +80,6 @@ Therefore at each iteration, we are going to compute a target <img src="https://
             pi[s] = argmax Q(s,a)
  ```
  ## Performance
- 
+ We show below the performance of our model :
+ ![Q Training]()
     
